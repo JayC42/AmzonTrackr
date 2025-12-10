@@ -1,0 +1,25 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/ff990_next_dist_compiled_154b7cbd._.js",
+      "static/chunks/ff990_next_dist_shared_lib_4978c83b._.js",
+      "static/chunks/ff990_next_dist_client_5e32ba2a._.js",
+      "static/chunks/ff990_next_dist_d7ebdeb2._.js",
+      "static/chunks/ff990_next_app_98e3e122.js",
+      "static/chunks/[next]_entry_page-loader_ts_81cac6d2._.js",
+      "static/chunks/ff990_react_9047c9e0._.js",
+      "static/chunks/ff990_react-dom_cjs_react-dom_development_943dcbdd.js",
+      "static/chunks/ff990_react-dom_8e4bd235._.js",
+      "static/chunks/ff990_741322e1._.js",
+      "static/chunks/[root-of-the-server]__46c348dd._.js",
+      "static/chunks/Desktop_AmazonTracker-main_AmazonTracker-main_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_AmazonTracker-main_AmazonTracker-main_pages__app_9e662215._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

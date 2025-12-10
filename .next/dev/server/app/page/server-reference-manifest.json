@@ -1,0 +1,125 @@
+{
+  "node": {
+    "0077f5be66dcda5b8b74459d20a9eea3cac253cf6c": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAllProducts",
+          "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "getAllProducts",
+      "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+    },
+    "402a1f54f13114a1f21af2d4eadf55626c310f6658": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSimilarProducts",
+          "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "getSimilarProducts",
+      "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+    },
+    "40a331ea1b1925a2015ae41f722c2b57fc6e7023ae": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "scrapeAndStoreProduct",
+          "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "scrapeAndStoreProduct",
+      "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+    },
+    "40b5fd01365bcdb7c5abac93baab7f887afeb608ca": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getProductById",
+          "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "getProductById",
+      "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+    },
+    "60fc020723cf5c412fe886014f51c64660de6428f3": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addUserEmailToProduct",
+          "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "addUserEmailToProduct",
+      "filename": "Desktop/AmzonTrackr/lib/actions/index.ts"
+    },
+    "4043449b66c9acb04a5d087fe2af1ceca53bbf7832": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "scrapeAmazonProduct",
+          "filename": "Desktop/AmzonTrackr/lib/scraper/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "scrapeAmazonProduct",
+      "filename": "Desktop/AmzonTrackr/lib/scraper/index.ts"
+    },
+    "60747665298e842d6d77c6c3e8c3808f9157d4e3c9": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "generateEmailBody",
+          "filename": "Desktop/AmzonTrackr/lib/nodemailer/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "generateEmailBody",
+      "filename": "Desktop/AmzonTrackr/lib/nodemailer/index.ts"
+    },
+    "7fc2543ef284d4046fc084ce2920e10d349ad52a4f": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/AmzonTrackr/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/AmzonTrackr/lib/actions/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Desktop/AmzonTrackr/lib/scraper/index.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Desktop/AmzonTrackr/lib/nodemailer/index.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "sendEmail",
+          "filename": "Desktop/AmzonTrackr/lib/nodemailer/index.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "sendEmail",
+      "filename": "Desktop/AmzonTrackr/lib/nodemailer/index.ts"
+    }
+  },
+  "edge": {}
+}
