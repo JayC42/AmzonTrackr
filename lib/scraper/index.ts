@@ -58,7 +58,7 @@ export async function scrapeAmazonProduct(url: string) {
 
     const description = extractDescription($)
      // Extract the star rating
-     const stars = extractStars(
+     const starsValue = extractStars(
       $('#acrPopover'), // Example element containing the star rating
       $('.averageStarRating'), 
       $('.a-icon-alt')
@@ -76,7 +76,7 @@ export async function scrapeAmazonProduct(url: string) {
       discountRate: Number(discountRate),
       category: 'category',
       reviewsCount:100,
-      stars: stars,
+      stars: Number(starsValue) || 0,
       isOutOfStock: outOfStock,
       description,
       lowestPrice: Number(currentPrice) || Number(originalPrice),
