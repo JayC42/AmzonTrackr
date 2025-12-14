@@ -1,11 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverActions: true,
-    serverComponentsExternalPackages: ['mongoose']
+    serverActions: {
+      allowedOrigins: ['m.media-amazon.com'],
+    },
   },
+  serverExternalPackages: ['mongoose'],
   images: {
-    domains: ['m.media-amazon.com']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   }
 }
 
